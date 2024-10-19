@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0E0E0;
+
+}
+
+header {
+    background-color: #1c3c70;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul {
+    List-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    background-color: #00ADB5;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size:18px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.vieo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+
+}
